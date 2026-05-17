@@ -26,11 +26,66 @@
       max-width: 480px;
     }
 
+    /* 金蝶发票云 Logo 区域 */
+    .kingdee-logo-bar {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      border-radius: 12px 12px 0 0;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .kingdee-logo-icon {
+      width: 44px;
+      height: 44px;
+      flex-shrink: 0;
+    }
+
+    .kingdee-logo-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .kingdee-brand {
+      font-size: 15px;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: 1px;
+      line-height: 1;
+    }
+
+    .kingdee-brand span {
+      color: #f5a623;
+    }
+
+    .kingdee-product {
+      font-size: 11px;
+      color: rgba(255,255,255,0.6);
+      letter-spacing: 2px;
+      line-height: 1;
+    }
+
+    .kingdee-logo-divider {
+      flex: 1;
+    }
+
+    .kingdee-badge {
+      background: linear-gradient(135deg, #f5a623, #e8890c);
+      color: white;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 10px;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+    }
+
     /* 顶部年月导航 */
     .calendar-header {
       background: #c0392b;
       color: white;
-      border-radius: 12px 12px 0 0;
       padding: 20px;
       text-align: center;
     }
@@ -249,6 +304,34 @@
 <body>
 
 <div class="calendar-wrapper">
+
+  <!-- 金蝶发票云 Logo -->
+  <div class="kingdee-logo-bar">
+    <svg class="kingdee-logo-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- 外圆背景 -->
+      <circle cx="22" cy="22" r="20" fill="url(#kd-grad)" />
+      <!-- 蝴蝶/蝶形图案 -->
+      <path d="M22 22 C16 16, 8 14, 10 22 C8 30, 16 28, 22 22Z" fill="rgba(255,255,255,0.9)"/>
+      <path d="M22 22 C28 16, 36 14, 34 22 C36 30, 28 28, 22 22Z" fill="rgba(255,255,255,0.9)"/>
+      <path d="M22 22 C18 26, 14 32, 20 32 C24 32, 24 26, 22 22Z" fill="rgba(245,166,35,0.9)"/>
+      <path d="M22 22 C26 26, 30 32, 24 32 C20 32, 20 26, 22 22Z" fill="rgba(245,166,35,0.9)"/>
+      <!-- 中心点 -->
+      <circle cx="22" cy="22" r="2.5" fill="white"/>
+      <defs>
+        <linearGradient id="kd-grad" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#2563eb"/>
+          <stop offset="100%" stop-color="#1e40af"/>
+        </linearGradient>
+      </defs>
+    </svg>
+    <div class="kingdee-logo-text">
+      <div class="kingdee-brand">金蝶<span>发票云</span></div>
+      <div class="kingdee-product">KINGDEE · INVOICE CLOUD</div>
+    </div>
+    <div class="kingdee-logo-divider"></div>
+    <div class="kingdee-badge">智能财税</div>
+  </div>
+
   <div class="calendar-header">
     <div class="nav-row">
       <button class="nav-btn" id="prevMonth">&#8249;</button>
