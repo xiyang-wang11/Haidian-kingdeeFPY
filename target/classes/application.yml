@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/invoice_system?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: false
+
+# 金蝶发票云配置
+kingdee:
+  api:
+    get-app-token-url: https://cosmic-demo.piaozone.com/demo/api/getAppToken.do
+    login-url: https://cosmic-demo.piaozone.com/demo/api/login.do
+    open-invoice-url: https://cosmic-demo.piaozone.com/demo/kapi/app/sim/openApi
+    app-id: CQJC
+    app-secret: "Z!GEm)[O&amp;_%{H8"
+    account-id: "1640533801123708928"
+    user: "13714962604"
+    business-system-code: "CQJC"
+    # token缓存有效期（分钟），建议比实际过期时间少5分钟
+    token-expire-minutes: 55
+
+# 监控轮询配置
+monitor:
+  # 轮询间隔（秒）
+  poll-interval-seconds: 10
+  # 每次最多处理条数
+  batch-size: 50
