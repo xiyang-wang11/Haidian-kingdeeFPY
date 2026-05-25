@@ -12,6 +12,7 @@ public class InvoiceAssistantApplication {
     public static void main(String[] args) {
         SpringApplication.run(InvoiceAssistantApplication.class, args);
         println("发票助手启动成功！");
+         println("发票助手启动成功！");
     }
 }
 
