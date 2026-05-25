@@ -10937,3 +10937,388 @@ JDBC Connection [HikariProxyConnection@1089371453 wrapping com.mysql.cj.jdbc.Con
 ==> Parameters: 0(Integer)
 <==      Total: 0
 Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6791dbca]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ea6711a] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@931184271 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ea6711a]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23aba0af] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1323838305 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23aba0af]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59e9ef25] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@658080367 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59e9ef25]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20a40217] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@916603361 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20a40217]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5dd07980] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1575251095 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5dd07980]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38724599] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1714431854 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38724599]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@daa96ea] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@660489291 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@daa96ea]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2be81243] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1923927058 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2be81243]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7783b4bd] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@479386116 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7783b4bd]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5ffe3] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1746507096 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d5ffe3]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@380f31ae] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@352906155 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@380f31ae]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aa04589] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@467901746 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aa04589]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4aa15a] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1478369495 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4aa15a]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@355f4997] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1615494679 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@355f4997]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fc96bf1] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1075153006 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fc96bf1]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65e361e5] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@556865611 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65e361e5]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59e646e3] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@661973107 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59e646e3]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ea2b8c2] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1964516523 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ea2b8c2]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9814ec7] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@40801181 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9814ec7]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@382eb6e5] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@995766353 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@382eb6e5]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4521aa8a] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@150320469 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4521aa8a]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad73e78] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@308980306 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad73e78]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bae5ac3] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@149527856 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bae5ac3]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f6487b2] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1720038111 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f6487b2]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59def589] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@48017431 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59def589]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66f38b78] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1211062418 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66f38b78]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41307b82] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1004703895 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41307b82]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68c485b] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1151520611 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68c485b]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fa126b8] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1527480199 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fa126b8]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e9693e3] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@137684591 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e9693e3]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29b6e09] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@135855154 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29b6e09]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35dc1180] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1819200020 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35dc1180]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7eab408] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1391457636 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7eab408]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29e486f3] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@2080128307 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29e486f3]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43112bfb] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1322253940 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43112bfb]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f319c05] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1697985771 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f319c05]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2173644] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@568677303 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2173644]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b463dbe] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1079546244 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b463dbe]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7be8b973] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@831111293 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7be8b973]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26b75a83] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@405425159 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26b75a83]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f6548be] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@52062867 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f6548be]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5137bda2] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1679966082 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5137bda2]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f996b3f] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1127156163 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f996b3f]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6693060b] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@37177717 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6693060b]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8926f] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1445292581 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8926f]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e937379] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1377105198 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e937379]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ef613c8] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1801173460 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ef613c8]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f07db4c] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@554822455 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f07db4c]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1543ae06] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1962920537 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1543ae06]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e314b9a] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1443560900 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e314b9a]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48dd68b6] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@484743084 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48dd68b6]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bd8697f] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@149109866 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bd8697f]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20fa98f1] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@1208061440 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20fa98f1]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2f00f2] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@157692598 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2f00f2]
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1345d663] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@384330857 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b413353] will not be managed by Spring
+==>  Preparing: SELECT id,billNo,billDate,invoiceProperty,invoiceType,remark,buyerName,buyerTaxpayerId,buyerBankAndAccount,buyerAddressAndTel,buyerRecipientMail,buyerProperty,orgCode,sellerName,sellerBankAndAccount,sellerAddressAndTel,totalAmount,includeTaxFlag,blueinvoiceCode,blueinvoiceNo,redReason,originalIssueTime,blueInvoiceType,autoInvoice,username,tu25_producttype AS tu25Producttype,tu25_productbatchno AS tu25Productbatchno,tu25_producedate AS tu25Producedate,tu25_validperiod AS tu25Validperiod,tu25_productorigin AS tu25Productorigin,tu25_provinceserialno AS tu25Provinceserialno,drawer,IsInvoicing,interfaceCode,returnCode,returnMsg,invoiceStatus,invoiceCode,invoiceNum,invoiceDate,invoiceFileUrl,invoiceImageUrl,invoicePdfFileUrl,invoiceXmlFileUrl,orderNo,createTime,updateTime FROM t_sim_original_bill WHERE (IsInvoicing = ?) ORDER BY createTime ASC LIMIT 50
+==> Parameters: 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1345d663]
