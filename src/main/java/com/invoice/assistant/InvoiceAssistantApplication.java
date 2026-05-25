@@ -13,6 +13,7 @@ public class InvoiceAssistantApplication {
         SpringApplication.run(InvoiceAssistantApplication.class, args);
         println("发票助手启动成功！");
          println("发票助手启动成功！");
+         println("发票助手启动成功！");
     }
 }
 

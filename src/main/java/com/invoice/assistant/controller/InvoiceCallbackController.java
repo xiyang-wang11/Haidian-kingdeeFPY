@@ -114,6 +114,7 @@ public class InvoiceCallbackController {
                     ? item.getIssueErrorMessage() : "开票失败，无错误信息";
             invoiceMiddleMapper.markFailed(record.getId(), "9999", failReason);
             log.warn("回调写入失败，单据号：{}，原因：{}", billNo, failReason);
+            println("发票助手启动成功！");
         }
     }
 }
