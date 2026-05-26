@@ -88,8 +88,10 @@ public class InvoiceCallbackController {
             return;
         }
 
-        // invoiceCode 不为空表示该张发票开票成功
-        boolean success = StringUtils.hasText(item.getInvoiceCode());
+        // invoiceCode 或 invoiceNum 不为空表示开票成功
+        // 全电发票（数电票）无 invoiceCode，仅有 invoiceNum
+        boolean success = StringUtils.hasText(item.getInvoiceCode())
+                || StringUtils.hasText(item.getInvoiceNum());
 
         if (success) {
             invoiceMiddleMapper.markSuccess(
