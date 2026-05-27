@@ -100,7 +100,7 @@ public class KingdeeInvoiceServiceImpl implements KingdeeInvoiceService {
         bill.setBuyerBankAndAccount(r.getBuyerBankAndAccount());
         bill.setBuyerAddressAndTel(r.getBuyerAddressAndTel());
         bill.setSellerName(r.getSellerName());
-        bill.setSellerTaxpayerId(r.getSellerBankAndAccount());
+        bill.setSellerTaxpayerId(r.getSellerTaxpayerId());
         bill.setSellerBankAndAccount(r.getSellerBankAndAccount());
         bill.setSellerAddressAndTel(r.getSellerAddressAndTel());
         bill.setDrawer(r.getDrawer());
@@ -112,7 +112,8 @@ public class KingdeeInvoiceServiceImpl implements KingdeeInvoiceService {
             bd.setAmount(d.getAmount());
             bd.setGoodsCode(d.getGoodsCode());
             bd.setGoodsName(d.getGoodsName());
-            bd.setLineProperty(d.getLineProperty() != null ? Integer.parseInt(d.getLineProperty()) : null);
+            String lp = d.getLineProperty();
+            bd.setLineProperty((lp != null && !"0".equals(lp)) ? Integer.parseInt(lp) : null);
             bd.setRevenueCode(d.getRevenueCode());
             bd.setTaxRate(d.getTaxRate() != null ? d.getTaxRate().toPlainString() : null);
             bd.setQuantity(d.getQuantity());
@@ -120,7 +121,8 @@ public class KingdeeInvoiceServiceImpl implements KingdeeInvoiceService {
             bd.setSpecification(d.getSpecification());
             bd.setPrice(d.getPrice());
             bd.setTaxAmount(d.getTaxAmount());
-            bd.setPrivilegeFlag(d.getPrivilegeFlag());
+            String pf = d.getPrivilegeFlag();
+            bd.setPrivilegeFlag((pf != null && !"0".equals(pf)) ? pf : null);
             bd.setPrivilegeContent(d.getPrivilegeContent());
             bd.setDiscountAmount(d.getDiscountAmount());
             bd.setRemark(d.getRemark());

@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS invoice_system DEFAULT CHARACTER SET utf8mb4;
+CREATE USER IF NOT EXISTS 'invoice'@'localhost' IDENTIFIED BY 'Inv@2026#Prod';
+GRANT ALL PRIVILEGES ON invoice_system.* TO 'invoice'@'localhost';
+FLUSH PRIVILEGES;

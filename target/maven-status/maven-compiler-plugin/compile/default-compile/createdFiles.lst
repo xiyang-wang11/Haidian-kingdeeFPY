@@ -18,6 +18,7 @@ com\invoice\assistant\dto\KingdeeCallbackRequest$InvoiceDetailItem.class
 com\invoice\assistant\dto\kingdee\LoginRequest.class
 com\invoice\assistant\dto\kingdee\AppTokenResponse$Data.class
 com\invoice\assistant\config\AppConfig.class
+com\invoice\assistant\dto\KingdeeCallbackRequest$1.class
 com\invoice\assistant\dto\kingdee\OpenInvoiceRequest.class
 com\invoice\assistant\dto\KingdeeCallbackRequest.class
 com\invoice\assistant\InvoiceAssistantApplication.class

@@ -1,0 +1,48 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    # 修改为生产环境数据库地址
+    url: jdbc:mysql://127.0.0.1:3306/invoice_system?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: invoice
+    password: "Inv@2026#Prod"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      connection-timeout: 30000
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+kingdee:
+  api:
+    # 生产环境替换为正式地址
+    get-app-token-url: https://cosmic-demo.piaozone.com/demo/api/getAppToken.do
+    login-url: https://cosmic-demo.piaozone.com/demo/api/login.do
+    open-invoice-url: https://cosmic-demo.piaozone.com/demo/kapi/app/sim/openApi
+    app-id: CQJC
+    app-secret: "Z!GEm)[O&_%{H8"
+    account-id: "1640533801123708928"
+    user: "13714962604"
+    business-system-code: "CQJC"
+    token-expire-minutes: 55
+
+monitor:
+  poll-interval-seconds: 10
+  batch-size: 50
+
+logging:
+  file:
+    name: /opt/invoice-assistant/app.log
+  logback:
+    rollingpolicy:
+      max-file-size: 50MB
+      max-history: 30
+  level:
+    root: INFO
+    com.invoice.assistant: INFO

@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS `t_sim_original_bill` (
     `buyer_property`          VARCHAR(5)                            COMMENT '购买方性质：0-企业，1-个人，2-非企业单位',
     `org_code`                VARCHAR(20)                           COMMENT '销方组织编码',
     `seller_name`             VARCHAR(100)                          COMMENT '销方名称',
+    `seller_taxpayer_id`      VARCHAR(50)                           COMMENT '销方税号',
     `seller_bank_and_account` VARCHAR(150)                          COMMENT '销方银行和账号',
     `seller_address_and_tel`  VARCHAR(120)                          COMMENT '销方地址和电话',
     `total_amount`            DECIMAL(18,2)                         COMMENT '单据金额，根据含税标记区分',
@@ -76,6 +77,8 @@ CREATE TABLE IF NOT EXISTS `t_sim_original_bill_item` (
     `remark`            VARCHAR(230)                    COMMENT '发票备注',
     `extra_field`       VARCHAR(200)                    COMMENT '合并标识字段（金蝶赋值）',
     `extra_field2`      VARCHAR(200)                    COMMENT '拆分分组字段（金蝶赋值）',
+    `create_time`       DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+    `update_time`       DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
     PRIMARY KEY (`id`),
     KEY `idx_billid` (`billid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='海典-金蝶开票中间表明细';

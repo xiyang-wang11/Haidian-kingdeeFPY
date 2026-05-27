@@ -1,7 +1,13 @@
 package com.invoice.assistant.dto;
 
+import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson2.TypeReference;
 import lombok.Data;
+
 import java.math.BigDecimal;
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
+import java.util.Collections;
 import java.util.List;
 
 /** 金蝶发票云按单回调请求体（5.1.03） */
@@ -11,17 +17,47 @@ public class KingdeeCallbackRequest {
     /** 业务编码：INVOICE.OPEN-开票，INVOICE.CANCEL-作废，INVOICE.RED-红冲 */
     private String interfaceCode;
 
-    /** 返回编码：0-成功，9999-失败（按单回调不能仅靠此字段判断，需看data内每条记录） */
+    /** 返回编码：0-成功，9999-失败 */
     private String returnCode;
 
-    /** 返回信息，成功返回success，失败返回原因 */
+    /** 返回信息 */
     private String returnMsg;
 
-    /** 回调数据列表（一个申请单可能拆分为多张发票） */
-    private List<CallbackData> data;
+    /**
+     * 回调数据：金蝶可能传 JSON 数组对象，也可能传 base64 编码的字符串。
+     * 统一用 Object 接收，调用 decodeData() 获取解析后的列表。
+     */
+    private Object data;
 
     /** 业务管控信息 */
     private BizControl bizControl;
+
+    /**
+     * 兼容两种 data 格式：
+     * 1. JSON 数组（Jackson 反序列化为 List<LinkedHashMap>）
+     * 2. base64 字符串（解码后再解析为 JSON 数组）
+     */
+    public List<CallbackData> decodeData() {
+        if (data == null) {
+            return Collections.emptyList();
+        }
+        String json;
+        if (data instanceof String) {
+            String str = (String) data;
+            try {
+                // 尝试 base64 解码
+                byte[] decoded = Base64.getDecoder().decode(str);
+                json = new String(decoded, StandardCharsets.UTF_8);
+            } catch (IllegalArgumentException e) {
+                // 不是 base64，直接当 JSON 字符串处理
+                json = str;
+            }
+        } else {
+            // 已经是对象/数组，转回 JSON 字符串再统一解析
+            json = JSON.toJSONString(data);
+        }
+        return JSON.parseObject(json, new TypeReference<List<CallbackData>>() {});
+    }
 
     @Data
     public static class CallbackData {
@@ -56,7 +92,7 @@ public class KingdeeCallbackRequest {
         private String remark;
         /** 发票状态：0-正常，2-待开，3-红冲，6-作废 */
         private String invoiceStatus;
-        /** 发票代码（开票失败时为空，通过此字段判断是否开票成功） */
+        /** 发票代码（全电发票为空，以 invoiceNum 不为空判断成功） */
         private String invoiceCode;
         /** 发票号码 */
         private String invoiceNum;

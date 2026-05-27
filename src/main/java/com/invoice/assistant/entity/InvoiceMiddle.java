@@ -26,6 +26,7 @@ public class InvoiceMiddle {
     private Integer buyerProperty;
     private String orgCode;
     private String sellerName;
+    private String sellerTaxpayerId;
     private String sellerBankAndAccount;
     private String sellerAddressAndTel;
     private BigDecimal totalAmount;
@@ -59,7 +60,7 @@ public class InvoiceMiddle {
     private String drawer;
 
     /** 是否已开票：0-未开票，1-已开票，2-开票失败 */
-    @TableField("IsInvoicing")
+    @TableField("is_invoicing")
     private Integer isInvoicing;
 
     // ===== 开票后返回字段 =====

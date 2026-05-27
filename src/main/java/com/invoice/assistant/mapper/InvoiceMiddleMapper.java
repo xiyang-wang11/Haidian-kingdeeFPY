@@ -9,17 +9,17 @@ import org.apache.ibatis.annotations.Update;
 @Mapper
 public interface InvoiceMiddleMapper extends BaseMapper<InvoiceMiddle> {
 
-    /** 乐观锁抢占，IsInvoicing 0->1，防止并发重复开票 */
-    @Update("UPDATE t_sim_original_bill SET IsInvoicing=1, updateTime=NOW() WHERE id=#{id} AND IsInvoicing=0")
+    /** 乐观锁抢占，is_invoicing 0->1，防止并发重复开票 */
+    @Update("UPDATE t_sim_original_bill SET is_invoicing=1, update_time=NOW() WHERE id=#{id} AND is_invoicing=0")
     int lockForInvoicing(@Param("id") String id);
 
-    /** 开票成功，写入返回字段，IsInvoicing=1 */
-    @Update("UPDATE t_sim_original_bill SET IsInvoicing=1, " +
-            "interfaceCode=#{interfaceCode}, returnCode=#{returnCode}, returnMsg=#{returnMsg}, " +
-            "invoiceStatus=#{invoiceStatus}, invoiceCode=#{invoiceCode}, invoiceNum=#{invoiceNum}, " +
-            "invoiceDate=#{invoiceDate}, invoiceFileUrl=#{invoiceFileUrl}, invoiceImageUrl=#{invoiceImageUrl}, " +
-            "invoicePdfFileUrl=#{invoicePdfFileUrl}, invoiceXmlFileUrl=#{invoiceXmlFileUrl}, " +
-            "orderNo=#{orderNo}, updateTime=NOW() WHERE id=#{id}")
+    /** 开票成功，写入返回字段，is_invoicing=1 */
+    @Update("UPDATE t_sim_original_bill SET is_invoicing=1, " +
+            "interface_code=#{interfaceCode}, return_code=#{returnCode}, return_msg=#{returnMsg}, " +
+            "invoice_status=#{invoiceStatus}, invoice_code=#{invoiceCode}, invoice_num=#{invoiceNum}, " +
+            "invoice_date=#{invoiceDate}, invoice_file_url=#{invoiceFileUrl}, invoice_image_url=#{invoiceImageUrl}, " +
+            "invoice_pdf_file_url=#{invoicePdfFileUrl}, invoice_xml_file_url=#{invoiceXmlFileUrl}, " +
+            "order_no=#{orderNo}, update_time=NOW() WHERE id=#{id}")
     int markSuccess(@Param("id") String id,
                     @Param("interfaceCode") String interfaceCode,
                     @Param("returnCode") String returnCode,
@@ -34,9 +34,9 @@ public interface InvoiceMiddleMapper extends BaseMapper<InvoiceMiddle> {
                     @Param("invoiceXmlFileUrl") String invoiceXmlFileUrl,
                     @Param("orderNo") String orderNo);
 
-    /** 开票失败，IsInvoicing=2 */
-    @Update("UPDATE t_sim_original_bill SET IsInvoicing=2, " +
-            "returnCode=#{returnCode}, returnMsg=#{returnMsg}, updateTime=NOW() WHERE id=#{id}")
+    /** 开票失败，is_invoicing=2 */
+    @Update("UPDATE t_sim_original_bill SET is_invoicing=2, " +
+            "return_code=#{returnCode}, return_msg=#{returnMsg}, update_time=NOW() WHERE id=#{id}")
     int markFailed(@Param("id") String id,
                    @Param("returnCode") String returnCode,
                    @Param("returnMsg") String returnMsg);

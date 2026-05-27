@@ -1,6 +1,5 @@
 package com.invoice.assistant.controller;
 
-import com.alibaba.fastjson2.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.invoice.assistant.dto.KingdeeCallbackRequest;
 import com.invoice.assistant.dto.KingdeeCallbackRequest.CallbackData;
@@ -32,17 +31,20 @@ public class InvoiceCallbackController {
      */
     @PostMapping("/callback")
     public KingdeeCallbackResponse callback(@RequestBody KingdeeCallbackRequest req) {
-        log.info("收到金蝶回调，interfaceCode：{}，returnCode：{}，data条数：{}",
+        log.info("收到金蝶回调，interfaceCode：{}，returnCode：{}，原始data类型：{}",
                 req.getInterfaceCode(), req.getReturnCode(),
-                req.getData() != null ? req.getData().size() : 0);
+                req.getData() != null ? req.getData().getClass().getSimpleName() : "null");
 
         try {
-            if (req.getData() == null || req.getData().isEmpty()) {
+            List<CallbackData> dataList = req.decodeData();
+            log.info("回调data解析条数：{}", dataList.size());
+
+            if (dataList.isEmpty()) {
                 log.warn("回调data为空，interfaceCode：{}", req.getInterfaceCode());
                 return KingdeeCallbackResponse.ok();
             }
 
-            for (CallbackData item : req.getData()) {
+            for (CallbackData item : dataList) {
                 processCallbackItem(req.getInterfaceCode(), item);
             }
 
